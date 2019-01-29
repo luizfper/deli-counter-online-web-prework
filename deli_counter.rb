@@ -7,7 +7,7 @@ def line (customers)
        mod_customers << "#{customers.index(customer)+1}. #{customer} "
     end
   end
- puts mod_customers.join
+ puts "The line is currently #{mod_customers.join}"
 end
 
 def take_a_number(katz_deli,name)
