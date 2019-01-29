@@ -3,7 +3,7 @@ def line (customers)
     return puts "The line is currently empty."
   else
     mod_customers=[]
-    customer.each do |customer|
+    customers.each do |customer|
        mod_customers << "#{customers.index(customer)+1}. #{customer} "
     end
   end
