@@ -2,8 +2,12 @@ def line (customers)
   if customers.size==0
     return puts "The line is currently empty."
   else
-    place = customers.length+1
+    mod_customers=[]
+    customer.each do |customer|
+       mod_customers << "#{customers.index(customer)+1}. #{customer} "
+    end
   end
+  
 end
 
 def take_a_number(katz_deli,name)
