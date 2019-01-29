@@ -4,10 +4,10 @@ def line (customers)
   else
     mod_customers=[]
     customers.each do |customer|
-       mod_customers << "#{customers.index(customer)+1}. #{customer} "
+       mod_customers << "#{customers.index(customer)+1}. #{customer}"
     end
   end
- puts "The line is currently: #{mod_customers.join}"
+ puts "The line is currently: #{mod_customers.join(" ")}"
 end
 
 def take_a_number(katz_deli,name)
