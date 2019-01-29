@@ -1,6 +1,9 @@
 def line (customers)
-  return "The line is currently empty." if customers.size==0
-  place = customers.index(customer)+1
+  if customers.size==0
+    return puts "The line is currently empty."
+  else
+    place = customers.index(customer)+1
+  end
 end
 
 def take_a_number(katz_deli,name)
