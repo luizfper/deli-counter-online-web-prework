@@ -1,4 +1,4 @@
-def line (customers,customer)
+def line (customers)
   return "The line is currently empty." if customers.size==0
   place = customers.index(customer)+1
 end
